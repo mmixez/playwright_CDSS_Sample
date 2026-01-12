@@ -1,10 +1,21 @@
 {
   "name": "playwright_dcss",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample Playwright UI tests for California Child Support Services website",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright test --reporter=allure-playwright",
+    "allure:generate": "allure generate ./allure-results --clean -o ./allure-report",
+    "allure:serve": "allure serve ./allure-results"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "UI test",
+    "allure"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
