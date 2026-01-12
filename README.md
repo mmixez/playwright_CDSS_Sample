@@ -44,3 +44,7 @@ The tests cover the following areas:
 
 ### Allure Report
 <img width="823" height="722" alt="alluree_report" src="https://github.com/user-attachments/assets/4db2113b-35a5-4f29-9bc8-55bdc5d41899" />
+
+### Jenkins Build Output
+<img width="1510" height="723" alt="jenkins_report" src="https://github.com/user-attachments/assets/b88c290e-b4aa-4548-8b99-e2f8408013a0" />
+
